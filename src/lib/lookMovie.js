@@ -2,7 +2,7 @@ import Fuse from 'fuse.js'
 import JSON5 from 'json5'
 
 function getCorsUrl(url) {
-    return `https://hidden-inlet-27205.herokuapp.com/${url}`;
+    return `https://m3u8.justchill.workers.dev/?url=${url}`;
 }
 
 async function getVideoUrl(config) {
